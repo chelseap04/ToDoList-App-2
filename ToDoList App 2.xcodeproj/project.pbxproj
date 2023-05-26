@@ -12,6 +12,7 @@
 		FD484F6D2A1ED64B009CF9EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD484F6C2A1ED64B009CF9EF /* Assets.xcassets */; };
 		FD484F702A1ED64B009CF9EF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD484F6F2A1ED64B009CF9EF /* Preview Assets.xcassets */; };
 		FD484F792A2039F8009CF9EF /* NewToDoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD484F782A2039F8009CF9EF /* NewToDoView.swift */; };
+		FD484F7B2A203DBF009CF9EF /* ToDoItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD484F7A2A203DBF009CF9EF /* ToDoItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		FD484F6C2A1ED64B009CF9EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FD484F6F2A1ED64B009CF9EF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		FD484F782A2039F8009CF9EF /* NewToDoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewToDoView.swift; sourceTree = "<group>"; };
+		FD484F7A2A203DBF009CF9EF /* ToDoItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 			children = (
 				FD484F682A1ED641009CF9EF /* ToDoList_App_2App.swift */,
 				FD484F6A2A1ED641009CF9EF /* ContentView.swift */,
+				FD484F7A2A203DBF009CF9EF /* ToDoItem.swift */,
 				FD484F782A2039F8009CF9EF /* NewToDoView.swift */,
 				FD484F6C2A1ED64B009CF9EF /* Assets.xcassets */,
 				FD484F6E2A1ED64B009CF9EF /* Preview Content */,
@@ -142,6 +145,7 @@
 			files = (
 				FD484F792A2039F8009CF9EF /* NewToDoView.swift in Sources */,
 				FD484F6B2A1ED641009CF9EF /* ContentView.swift in Sources */,
+				FD484F7B2A203DBF009CF9EF /* ToDoItem.swift in Sources */,
 				FD484F692A1ED641009CF9EF /* ToDoList_App_2App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
